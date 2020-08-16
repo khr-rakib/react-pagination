@@ -219,7 +219,7 @@ function App() {
     },
   ]);
 
-  const [showPerPage, setShowPerPage] = useState(4);
+  const [showPerPage, setShowPerPage] = useState(8);
   const [pagination, setPagination] = useState({
     start: 0,
     end: showPerPage,
